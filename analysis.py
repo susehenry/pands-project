@@ -18,12 +18,56 @@ sns.set()
 #using pandas to read .data files
 irdata =  pd.read_csv('iris.data', sep=",")
 
-# setting the variables in the dataset
+# labelling the variables in the dataset
 irdata.columns = ['sepal_length', 'sepal_width' , 'petal_length', 'petal_width', 'species']
 
-#test first 10 data sets print
+#testing first 10 data sets to print
 print(irdata.head (10))
 
+
+#info(): provides a concise summary of a dataframe
+irdata.info()
+
+# Summarize the all the Iris Dataset
+Summary = irdata.describe()
+
+#to create a text summary of dataset
+
+# open() returns a file object, 
+# and is most commonly used with two arguments: open(filename, mode).
+# 'w' is python write mode, this mode is used to edit and write new information
+with open('Summary.txt', 'w') as f: 
+
+#f.write(string) writes the contents of string to the file  
+    f.write(str(Summary))
+
+
+#Summary text file sepal width
+sepal_width = irdata ['sepal_width']
+with open ('sepal_width.txt', 'w') as f:
+    f.write(str(sepal_width.describe()))  
+
+#Summary text file sepal length
+sepal_length = irdata ['sepal_length']
+with open ('sepal_length.txt', 'w') as f:
+    f.write(str(sepal_length.describe()))
+
+#Summary text file petal length
+petal_length = irdata ['petal_length']
+with open ('petal_length.txt', 'w') as f:
+    f.write(str(petal_length.describe())) 
+
+#Summary text file petal width
+petal_width = irdata ['petal_width']
+with open ('petal_width.txt', 'w') as f:
+    f.write(str(petal_width.describe()))
+
+
+
+
+
+
+   
 
 
 
