@@ -62,7 +62,25 @@ petal_width = irdata ['petal_width']
 with open ('petal_width.txt', 'w') as f:
     f.write(str(petal_width.describe()))
 
+#Histograms
 
+#define the variable species
+species = irdata ['species']
+
+#create dataframe
+df = pd.DataFrame({'species': species, 'sepal_length': sepal_length, 'sepal_width': sepal_width, 'petal_length': petal_length, 'petal_width': petal_width})
+
+#sepal length histogram
+df['sepal_length'].hist()
+
+#sepal width histogram
+df['sepal_width'].hist()
+
+#petal length histogram
+df['petal_length'].hist()
+
+#petal width histogram
+df ['petal_width'].hist()
 
 
 
