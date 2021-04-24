@@ -70,17 +70,24 @@ species = irdata ['species']
 #create dataframe
 df = pd.DataFrame({'species': species, 'sepal_length': sepal_length, 'sepal_width': sepal_width, 'petal_length': petal_length, 'petal_width': petal_width})
 
+#histogram created using seaborn 
+
 #sepal length histogram
-df['sepal_length'].hist()
+sns.displot(data= df, x="sepal_length", hue="species", kind= "hist")
+plt.title("Sepal Length (cm)")
+
 
 #sepal width histogram
-df['sepal_width'].hist()
+sns.displot(data= df, x="sepal_width", hue="species", kind= "hist")
+plt.title("Sepal Width (cm)")
 
 #petal length histogram
-df['petal_length'].hist()
+sns.displot(data= df, x="petal_length", hue="species", kind="hist")
+plt.title("Petal Length (cm)")
 
 #petal width histogram
-df ['petal_width'].hist()
+sns.displot(data= df, x="petal_width", hue="species", kind= "hist")
+plt.title("Petal Width (cm)")
 
 
 
