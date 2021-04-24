@@ -74,7 +74,10 @@ df = pd.DataFrame({'species': species, 'sepal_length': sepal_length, 'sepal_widt
 
 #sepal length histogram
 sns.displot(data= df, x="sepal_length", hue="species", kind= "hist")
+#adding a title
 plt.title("Sepal Length (cm)")
+#saving copy of histogram to png file
+plt.savefig('sepal_length.png')
 
 
 #sepal width histogram
