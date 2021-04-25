@@ -62,6 +62,9 @@ petal_width = irdata ['petal_width']
 with open ('petal_width.txt', 'w') as f:
     f.write(str(petal_width.describe()))
 
+
+
+
 #Histograms
 
 #define the variable species
@@ -91,6 +94,12 @@ plt.title("Petal Length (cm)")
 #petal width histogram
 sns.displot(data= df, x="petal_width", hue="species", kind= "hist")
 plt.title("Petal Width (cm)")
+
+
+
+
+#scatter plots
+
 
 
 
