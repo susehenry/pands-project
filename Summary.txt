@@ -15,8 +15,7 @@ Overview of the whole dataset:
 
 [149 rows x 5 columns]
 
-Basic Statistics
-       sepal_length  sepal_width  petal_length  petal_width
+Basic Statistics       sepal_length  sepal_width  petal_length  petal_width
 count    149.000000   149.000000    149.000000   149.000000
 mean       5.848322     3.054362      3.773826     1.206040
 std        0.828594     0.435810      1.760543     0.760354
