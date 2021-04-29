@@ -1,6 +1,4 @@
-# pands-project
-
-# pands-project
+# pands-project 2021
 
 # Python –Using the Iris Dataset 
 
