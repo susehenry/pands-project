@@ -20,7 +20,6 @@ The dataset contains a set of 150 records under 5 attributes:
 -	Iris Setosa
 -	Iris Virginica
 
-![Iris%20flowers%20thumbnail.png](attachment:Iris%20flowers%20thumbnail.png)
 
 Several versions of the dataset have been published, the dataset being used in this project has been downloaded from - UCI Machine Learning Repository. 
 
@@ -330,7 +329,7 @@ plt.savefig('sepal_length.png')
 
 
     
-![svg](output_26_0.svg)
+<img src = "https://github.com/susehenry/pands-project/blob/main/sepal_length.png" alt = "Sepal length" width = "450" height = "450"> 
     
 
 
@@ -344,7 +343,7 @@ plt.savefig('sepal_width.png')
 
 
     
-![png](output_27_0.png)
+<img src = "https://github.com/susehenry/pands-project/blob/main/sepal_width.png" alt = "Sepal width" width = "450" height = "450"> 
     
 
 
@@ -358,8 +357,8 @@ plt.savefig('petal_length.png')
 ```
 
 
-    
-![svg](output_28_0.svg)
+<img src = "https://github.com/susehenry/pands-project/blob/main/petal_length.png" alt = "Petal length" width = "450" height = "450">   
+
     
 
 
@@ -374,7 +373,7 @@ plt.savefig('petal_width.png')
 
 
     
-![svg](output_29_0.svg)
+<img src = "https://github.com/susehenry/pands-project/blob/main/petal_width.png" alt = "Petal Width" width = "450" height = "450">
     
 
 
