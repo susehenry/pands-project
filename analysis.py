@@ -116,7 +116,7 @@ plt.savefig ('petal_width.png')
 # the same DataFrame is used to individually plot each pair of variables using seaborn scatterplots
 
 # scatterplot to compare sepal length and width
-sns.scatterplot (data=df, x= sepal_length, y = sepal_width, hue = "species")
+sns.scatterplot (data=df, x= "sepal_length", y = "sepal_width", hue = "species")
 
 #Adding a title
 plt.title ("Sepal Length and Sepal Width comparison")
@@ -125,20 +125,21 @@ plt.title ("Sepal Length and Sepal Width comparison")
 plt.legend(bbox_to_anchor=(1, 1),
            borderaxespad=0)
 
-#plt.show()
+
 
 plt.savefig ('sepal_comparison.png')
+plt.show()
 
 
 #scatter plot to compare petal length and width
 
-sns.scatterplot (data=df, x= petal_length, y = petal_width, hue = "species")
+sns.scatterplot (data=df, x= "petal_length", y = "petal_width", hue = "species")
 plt.title ("Petal Length and Petal Width comparison")
 plt.legend(bbox_to_anchor=(1, 1),
            borderaxespad=0)
-#plt.show()
-plt.savefig('petal_comparison.png')
 
+plt.savefig('petal_comparison.png')
+plt.show()
 
 #PairGrid
 
