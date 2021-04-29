@@ -96,14 +96,17 @@ plt.savefig('sepal_length.png')
 #sepal width histogram
 sns.displot(data= df, x="sepal_width", hue="species", kind= "hist")
 plt.title("Sepal Width (cm)")
+plt.savefig('sepal_width.png')
 
 #petal length histogram
 sns.displot(data= df, x="petal_length", hue="species", kind="hist")
 plt.title("Petal Length (cm)")
+plt.savefig ('petal_length.png')
 
 #petal width histogram
 sns.displot(data= df, x="petal_width", hue="species", kind= "hist")
 plt.title("Petal Width (cm)")
+plt.savefig ('petal_width.png')
 
 
 
@@ -122,7 +125,9 @@ plt.title ("Sepal Length and Sepal Width comparison")
 plt.legend(bbox_to_anchor=(1, 1),
            borderaxespad=0)
 
-plt.show()
+#plt.show()
+
+plt.savefig ('sepal_comparison.png')
 
 
 #scatter plot to compare petal length and width
@@ -131,7 +136,8 @@ sns.scatterplot (data=df, x= petal_length, y = petal_width, hue = "species")
 plt.title ("Petal Length and Petal Width comparison")
 plt.legend(bbox_to_anchor=(1, 1),
            borderaxespad=0)
-plt.show()
+#plt.show()
+plt.savefig('petal_comparison.png')
 
 
 #PairGrid
@@ -146,7 +152,9 @@ pair.map (sns.scatterplot)
 #adding a legend
 pair.add_legend ()
 
-plt.show()
+
+plt.savefig ('pairgrid.png')
+
 
 
 
