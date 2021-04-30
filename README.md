@@ -329,7 +329,7 @@ plt.savefig('sepal_length.png')
 
 
     
-<img src = "https://github.com/susehenry/pands-project/blob/main/sepal_length.png" alt = "Sepal length" width = "450" height = "450"> 
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/sepal_length.png" alt = "Sepal length" width = "450" height = "450"> 
     
 
 
@@ -343,7 +343,7 @@ plt.savefig('sepal_width.png')
 
 
     
-<img src = "https://github.com/susehenry/pands-project/blob/main/sepal_width.png" alt = "Sepal width" width = "450" height = "450"> 
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/sepal_width.png" alt = "Sepal width" width = "450" height = "450"> 
     
 
 
@@ -357,7 +357,7 @@ plt.savefig('petal_length.png')
 ```
 
 
-<img src = "https://github.com/susehenry/pands-project/blob/main/petal_length.png" alt = "Petal length" width = "450" height = "450">   
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/petal_length.png" alt = "Petal length" width = "450" height = "450">   
 
     
 
@@ -373,7 +373,7 @@ plt.savefig('petal_width.png')
 
 
     
-<img src = "https://github.com/susehenry/pands-project/blob/main/petal_width.png" alt = "Petal Width" width = "450" height = "450">
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/petal_width.png" alt = "Petal Width" width = "450" height = "450">
     
 
 
@@ -400,7 +400,7 @@ plt.show()
 
 
     
-<img src = "https://github.com/susehenry/pands-project/blob/main/sepal_comparison.png" alt = "Sepal length and width comparison" width = "450" height = "450">
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/sepal_comparison.png" alt = "Sepal length and width comparison" width = "450" height = "450">
     
 
 
@@ -417,7 +417,7 @@ plt.show()
 
 
     
-<img src = "https://github.com/susehenry/pands-project/blob/main/petal_comparison.png" alt = "Petal length and width comparison" width = "450" height = "450">
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/petal_comparison.png" alt = "Petal length and width comparison" width = "450" height = "450">
     
 
 
@@ -441,7 +441,7 @@ plt.show()
 
 
     
-<img src = "https://github.com/susehenry/pands-project/blob/main/pairgrid.png" alt = "Pair Grid" width = "450" height = "450">
+<img src = "https://github.com/susehenry/pands-project/blob/main/png%20files/pairgrid.png" alt = "Pair Grid" width = "450" height = "450">
     
 
 
